@@ -40,7 +40,7 @@
   ],
   "dependencies": {
     "mime-types": "~2.1.6",
-    "negotiator": "0.5.3"
+    "negotiator": "0.6.2"
   },
   "deprecated": false,
   "description": "Higher-level content negotiation",

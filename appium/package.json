@@ -1,0 +1,168 @@
+{
+  "_from": "appium@1.10.0",
+  "_id": "appium@1.10.0",
+  "_inBundle": false,
+  "_integrity": "sha512-A/DyC3+VNBwgdp09tTmPB6u56V3SyPw2RUzr5uyoy6D2/LBzB8dt5gnXWA1so20RPo2lYZ5A5SVqTHudWEiTSw==",
+  "_location": "/appium",
+  "_phantomChildren": {
+    "aproba": "1.2.0",
+    "are-we-there-yet": "1.1.5",
+    "console-control-strings": "1.1.0",
+    "has-unicode": "2.0.1",
+    "object-assign": "4.1.1",
+    "set-blocking": "2.0.0",
+    "signal-exit": "3.0.2",
+    "string-width": "1.0.2",
+    "strip-ansi": "3.0.1",
+    "wide-align": "1.1.3"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "appium@1.10.0",
+    "name": "appium",
+    "escapedName": "appium",
+    "rawSpec": "1.10.0",
+    "saveSpec": null,
+    "fetchSpec": "1.10.0"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/appium/-/appium-1.10.0.tgz",
+  "_shasum": "778d0e7b476fb083ce976503d01567dde3a23895",
+  "_spec": "appium@1.10.0",
+  "_where": "/Users/hakimhauston/tipsi-sprite/example",
+  "author": {
+    "name": "https://github.com/appium"
+  },
+  "bin": {
+    "appium": "./build/lib/main.js"
+  },
+  "bugs": {
+    "url": "https://github.com/appium/appium/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@babel/runtime": "^7.0.0",
+    "appium-android-driver": "^4.0.0",
+    "appium-base-driver": "3.x",
+    "appium-espresso-driver": "^1.3.0",
+    "appium-fake-driver": "^0.x",
+    "appium-ios-driver": "2.x",
+    "appium-mac-driver": "1.x",
+    "appium-selendroid-driver": "1.x",
+    "appium-support": "2.x",
+    "appium-tizen-driver": "1.1.1-beta.2",
+    "appium-uiautomator2-driver": "1.x",
+    "appium-windows-driver": "1.x",
+    "appium-xcuitest-driver": "^2.104.0",
+    "appium-youiengine-driver": "^1.1.1",
+    "argparse": "^1.0.10",
+    "async-lock": "^1.0.0",
+    "asyncbox": "2.x",
+    "bluebird": "3.x",
+    "continuation-local-storage": "3.x",
+    "dateformat": "^3.0.3",
+    "find-root": "^1.1.0",
+    "fsevents": "2.x",
+    "heapdump": "0.x",
+    "lodash": "^4.17.9",
+    "longjohn": "^0.2.12",
+    "npmlog": "4.x",
+    "request": "^2.81.0",
+    "request-promise": "4.x",
+    "semver": "^5.5.0",
+    "source-map-support": "0.x",
+    "teen_process": "1.x",
+    "winston": "3.x"
+  },
+  "deprecated": false,
+  "description": "Automation for Apps.",
+  "devDependencies": {
+    "ajv": "^6.5.3",
+    "appium-gulp-plugins": "^3.1.0",
+    "babel-eslint": "^10.0.0",
+    "chai": "4.x",
+    "chai-as-promised": "7.x",
+    "eslint": "^5.2.0",
+    "eslint-config-appium": "3.x",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-mocha": "^5.0.0",
+    "eslint-plugin-promise": "^4.0.0",
+    "fancy-log": "^1.3.2",
+    "gulp": "^4.0.0",
+    "handlebars": "^4.0.10",
+    "mocha": "5.x",
+    "pre-commit": "1.x",
+    "release": "^4.0.2",
+    "replace-ext": "^1.0.0",
+    "sinon": "^6.0.0",
+    "validate.js": "^0.12.0",
+    "wd": "^1.10.0",
+    "yaml-js": "^0.2.0"
+  },
+  "directories": {
+    "lib": "./lib",
+    "doc": "./docs"
+  },
+  "engines": {
+    "node": ">=8",
+    "npm": ">=6"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "build/lib"
+  ],
+  "greenkeeper": {
+    "ignore": []
+  },
+  "homepage": "https://github.com/appium/appium#readme",
+  "license": "Apache-2.0",
+  "main": "./build/lib/main.js",
+  "name": "appium",
+  "optionalDependencies": {
+    "fsevents": "2.x",
+    "heapdump": "0.x"
+  },
+  "pre-commit": [
+    "precommit-msg",
+    "precommit-test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appium/appium.git"
+  },
+  "scripts": {
+    "build": "gulp transpile",
+    "clean": "rm -rf node_modules && rm -rf package-lock.json && npm install",
+    "coverage": "gulp coveralls",
+    "e2e-test": "gulp e2e-test",
+    "generate-docs": "node ./build/commands-yml/parse.js",
+    "lint": "gulp eslint",
+    "mocha": "mocha",
+    "precommit-msg": "echo 'Pre-commit checks...' && exit 0",
+    "precommit-test": "REPORTER=dot gulp once",
+    "prepare": "gulp prepublish",
+    "publish": "gulp prepublish",
+    "release-beta": "release pre beta && npm publish --tag beta",
+    "shrinkwrap-prod": "rm -rf package-lock.json && npm prune --production && npm shrinkwrap",
+    "test": "gulp once",
+    "upload": "node ./build/test/scripts/bintray-upload.js",
+    "watch": "gulp watch",
+    "zip": "zip -qr appium.zip .",
+    "zip-and-upload": "npm run zip && npm run upload"
+  },
+  "tags": [
+    "automation",
+    "javascript",
+    "selenium",
+    "webdriver",
+    "ios",
+    "android",
+    "firefoxos",
+    "testing"
+  ],
+  "version": "1.10.0"
+}

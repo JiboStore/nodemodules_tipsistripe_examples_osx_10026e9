@@ -1,0 +1,102 @@
+{
+  "_from": "safe-buffer@~5.1.1",
+  "_id": "safe-buffer@5.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==",
+  "_location": "/safe-buffer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "safe-buffer@~5.1.1",
+    "name": "safe-buffer",
+    "escapedName": "safe-buffer",
+    "rawSpec": "~5.1.1",
+    "saveSpec": null,
+    "fetchSpec": "~5.1.1"
+  },
+  "_requiredBy": [
+    "/appium-android-driver/archiver-utils/readable-stream",
+    "/appium-android-driver/basic-auth",
+    "/appium-android-driver/compress-commons/readable-stream",
+    "/appium-base-driver/archiver-utils/readable-stream",
+    "/appium-base-driver/basic-auth",
+    "/appium-base-driver/compress-commons/readable-stream",
+    "/appium-chromedriver/archiver-utils/readable-stream",
+    "/appium-chromedriver/basic-auth",
+    "/appium-chromedriver/compress-commons/readable-stream",
+    "/appium-espresso-driver/archiver-utils/readable-stream",
+    "/appium-espresso-driver/basic-auth",
+    "/appium-espresso-driver/compress-commons/readable-stream",
+    "/appium-fake-driver/archiver-utils/readable-stream",
+    "/appium-fake-driver/basic-auth",
+    "/appium-fake-driver/compress-commons/readable-stream",
+    "/appium-mac-driver/archiver-utils/readable-stream",
+    "/appium-mac-driver/basic-auth",
+    "/appium-mac-driver/compress-commons/readable-stream",
+    "/appium-uiautomator2-driver/archiver-utils/readable-stream",
+    "/appium-uiautomator2-driver/basic-auth",
+    "/appium-uiautomator2-driver/compress-commons/readable-stream",
+    "/appium-windows-driver/archiver-utils/readable-stream",
+    "/appium-windows-driver/basic-auth",
+    "/appium-windows-driver/compress-commons/readable-stream",
+    "/appium-xcuitest-driver/archiver-utils/readable-stream",
+    "/appium-xcuitest-driver/basic-auth",
+    "/appium-xcuitest-driver/compress-commons/readable-stream",
+    "/appium-youiengine-driver/archiver-utils/readable-stream",
+    "/appium-youiengine-driver/basic-auth",
+    "/appium-youiengine-driver/compress-commons/readable-stream",
+    "/bl",
+    "/content-disposition",
+    "/convert-source-map",
+    "/express",
+    "/readable-stream",
+    "/request",
+    "/string_decoder",
+    "/tipsi-stripe/basic-auth",
+    "/tipsi-stripe/compression",
+    "/tipsi-stripe/react-devtools-core/ws",
+    "/tunnel-agent"
+  ],
+  "_resolved": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz",
+  "_shasum": "991ec69d296e0313747d59bdfd2b745c35f8828d",
+  "_spec": "safe-buffer@~5.1.1",
+  "_where": "/Users/hakimhauston/tipsi-sprite/example/node_modules/convert-source-map",
+  "author": {
+    "name": "Feross Aboukhadijeh",
+    "email": "feross@feross.org",
+    "url": "http://feross.org"
+  },
+  "bugs": {
+    "url": "https://github.com/feross/safe-buffer/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Safer Node.js Buffer API",
+  "devDependencies": {
+    "standard": "*",
+    "tape": "^4.0.0"
+  },
+  "homepage": "https://github.com/feross/safe-buffer",
+  "keywords": [
+    "buffer",
+    "buffer allocate",
+    "node security",
+    "safe",
+    "safe-buffer",
+    "security",
+    "uninitialized"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "safe-buffer",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/feross/safe-buffer.git"
+  },
+  "scripts": {
+    "test": "standard && tape test/*.js"
+  },
+  "types": "index.d.ts",
+  "version": "5.1.2"
+}

@@ -1,0 +1,99 @@
+{
+  "_from": "iconv-lite@~0.4.13",
+  "_id": "iconv-lite@0.4.24",
+  "_inBundle": false,
+  "_integrity": "sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==",
+  "_location": "/iconv-lite",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "iconv-lite@~0.4.13",
+    "name": "iconv-lite",
+    "escapedName": "iconv-lite",
+    "rawSpec": "~0.4.13",
+    "saveSpec": null,
+    "fetchSpec": "~0.4.13"
+  },
+  "_requiredBy": [
+    "/appium-android-driver/body-parser",
+    "/appium-android-driver/raw-body",
+    "/appium-base-driver/body-parser",
+    "/appium-base-driver/raw-body",
+    "/appium-chromedriver/body-parser",
+    "/appium-chromedriver/raw-body",
+    "/appium-espresso-driver/body-parser",
+    "/appium-espresso-driver/raw-body",
+    "/appium-fake-driver/body-parser",
+    "/appium-fake-driver/raw-body",
+    "/appium-mac-driver/body-parser",
+    "/appium-mac-driver/raw-body",
+    "/appium-uiautomator2-driver/body-parser",
+    "/appium-uiautomator2-driver/raw-body",
+    "/appium-windows-driver/body-parser",
+    "/appium-windows-driver/raw-body",
+    "/appium-xcuitest-driver/body-parser",
+    "/appium-xcuitest-driver/raw-body",
+    "/appium-youiengine-driver/body-parser",
+    "/appium-youiengine-driver/raw-body",
+    "/encoding",
+    "/express/body-parser",
+    "/express/raw-body",
+    "/external-editor"
+  ],
+  "_resolved": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz",
+  "_shasum": "2022b4b25fbddc21d2f524974a474aafe733908b",
+  "_spec": "iconv-lite@~0.4.13",
+  "_where": "/Users/hakimhauston/tipsi-sprite/example/node_modules/encoding",
+  "author": {
+    "name": "Alexander Shtuchkin",
+    "email": "ashtuchkin@gmail.com"
+  },
+  "browser": {
+    "./lib/extend-node": false,
+    "./lib/streams": false
+  },
+  "bugs": {
+    "url": "https://github.com/ashtuchkin/iconv-lite/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "safer-buffer": ">= 2.1.2 < 3"
+  },
+  "deprecated": false,
+  "description": "Convert character encodings in pure javascript.",
+  "devDependencies": {
+    "async": "*",
+    "errto": "*",
+    "iconv": "*",
+    "istanbul": "*",
+    "mocha": "^3.1.0",
+    "request": "~2.87.0",
+    "semver": "*",
+    "unorm": "*"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "homepage": "https://github.com/ashtuchkin/iconv-lite",
+  "keywords": [
+    "iconv",
+    "convert",
+    "charset",
+    "icu"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "name": "iconv-lite",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ashtuchkin/iconv-lite.git"
+  },
+  "scripts": {
+    "coverage": "istanbul cover _mocha -- --grep .",
+    "coverage-open": "open coverage/lcov-report/index.html",
+    "test": "mocha --reporter spec --grep ."
+  },
+  "typings": "./lib/index.d.ts",
+  "version": "0.4.24"
+}

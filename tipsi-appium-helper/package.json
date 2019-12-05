@@ -1,0 +1,114 @@
+{
+  "_from": "tipsi-appium-helper@2.1.3",
+  "_id": "tipsi-appium-helper@2.1.3",
+  "_inBundle": false,
+  "_integrity": "sha512-QAdc/cjiud4nf8QxG0wmtZnN07Se177q7rcaf102BprCZ4cr8oaqN42NtRoumX87k/ew4/GhWO0Oc7f6SUVSNg==",
+  "_location": "/tipsi-appium-helper",
+  "_phantomChildren": {
+    "appium-support": "2.35.2",
+    "appium-xcode": "3.9.0",
+    "asyncbox": "2.6.0",
+    "core-js": "1.2.7",
+    "deep-equal": "1.0.1",
+    "defined": "1.0.0",
+    "for-each": "0.3.3",
+    "fs.realpath": "1.0.0",
+    "function-bind": "1.1.1",
+    "has": "1.0.3",
+    "inflight": "1.0.6",
+    "inherits": "2.0.4",
+    "minimatch": "3.0.4",
+    "minimist": "1.2.0",
+    "once": "1.4.0",
+    "path-is-absolute": "1.0.1",
+    "path-parse": "1.0.6",
+    "resumer": "0.0.0",
+    "source-map-support": "0.4.18",
+    "string.prototype.trim": "1.1.2",
+    "teen_process": "1.15.0",
+    "through": "2.3.8"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "tipsi-appium-helper@2.1.3",
+    "name": "tipsi-appium-helper",
+    "escapedName": "tipsi-appium-helper",
+    "rawSpec": "2.1.3",
+    "saveSpec": null,
+    "fetchSpec": "2.1.3"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/tipsi-appium-helper/-/tipsi-appium-helper-2.1.3.tgz",
+  "_shasum": "57a1fd72d6419fc5b59695976d094cfd1e3c2331",
+  "_spec": "tipsi-appium-helper@2.1.3",
+  "_where": "/Users/hakimhauston/tipsi-sprite/example",
+  "author": {
+    "name": "Tipsi"
+  },
+  "bin": {
+    "appium-helper": "./bin/appium-helper.js"
+  },
+  "bugs": {
+    "url": "https://github.com/tipsi/tipsi-appium-helper/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "adbkit": "2.11.0",
+    "await-repl": "1.0.2",
+    "babel-cli": "6.26.0",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-stage-0": "6.24.1",
+    "babel-register": "6.26.0",
+    "commander": "2.15.1",
+    "glob": "7.1.2",
+    "imgur": "0.2.1",
+    "lodash": "4.17.5",
+    "mock-require": "3.0.2",
+    "node-simctl": "3.11.8",
+    "require-dir-all": "0.4.15",
+    "resolve": "1.7.0",
+    "semver-compare": "1.0.0",
+    "tap-diff": "0.1.1",
+    "tape": "4.9.0"
+  },
+  "deprecated": false,
+  "description": "Tipsi Appium Helper",
+  "devDependencies": {
+    "babel-eslint": "8.2.2",
+    "clear-require": "1.0.1",
+    "eslint": "4.19.1",
+    "eslint-config-tipsi": "2.0.3",
+    "nock": "9.2.5",
+    "pmock": "0.2.3",
+    "tape-plus": "1.0.0",
+    "webdriverio": "4.2.16"
+  },
+  "homepage": "https://github.com/tipsi/tipsi-appium-helper#readme",
+  "keywords": [
+    "appium",
+    "test",
+    "tests",
+    "helper",
+    "ios",
+    "android"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "tipsi-appium-helper",
+  "peerDependencies": {
+    "webdriverio": ">= 4.2 < 5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tipsi/tipsi-appium-helper.git"
+  },
+  "scripts": {
+    "start": "babel-node ./src",
+    "test": "tape -r babel-register -r babel-polyfill __tests__/{/,**/,**/**/}*.js | tap-diff"
+  },
+  "version": "2.1.3"
+}

@@ -1,0 +1,52 @@
+{
+  "_from": "await-repl@1.0.2",
+  "_id": "await-repl@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha1-QdBg8uTCsHsJpJojeyxF8a1CFOY=",
+  "_location": "/await-repl",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "await-repl@1.0.2",
+    "name": "await-repl",
+    "escapedName": "await-repl",
+    "rawSpec": "1.0.2",
+    "saveSpec": null,
+    "fetchSpec": "1.0.2"
+  },
+  "_requiredBy": [
+    "/tipsi-appium-helper"
+  ],
+  "_resolved": "https://registry.npmjs.org/await-repl/-/await-repl-1.0.2.tgz",
+  "_shasum": "41d060f2e4c2b07b09a49a237b2c45f1ad4214e6",
+  "_spec": "await-repl@1.0.2",
+  "_where": "/Users/hakimhauston/tipsi-sprite/example/node_modules/tipsi-appium-helper",
+  "author": {
+    "name": "Simon Wanner",
+    "email": "skyrising@pvpctutorials.de",
+    "url": "https://pvpctutorials.de"
+  },
+  "bugs": {
+    "url": "https://github.com/skyrising/await-repl/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Wrapper for repl faking await functionality",
+  "homepage": "https://github.com/skyrising/await-repl#readme",
+  "keywords": [
+    "await",
+    "repl"
+  ],
+  "license": "GPL-3.0",
+  "main": "index.js",
+  "name": "await-repl",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/skyrising/await-repl.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.2"
+}

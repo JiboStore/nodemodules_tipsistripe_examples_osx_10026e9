@@ -1,0 +1,80 @@
+{
+  "_from": "@wdio/config@5.16.11",
+  "_id": "@wdio/config@5.16.11",
+  "_inBundle": false,
+  "_integrity": "sha512-fGa7gDTyzzs28QIkJGPqG2ocgOvHBUanSDan4pw1pX7y1yJtPI0Nc3hkfxB6u/MqsW67GXCNMRyOS9Ri1I912A==",
+  "_location": "/@wdio/config",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@wdio/config@5.16.11",
+    "name": "@wdio/config",
+    "escapedName": "@wdio%2fconfig",
+    "scope": "@wdio",
+    "rawSpec": "5.16.11",
+    "saveSpec": null,
+    "fetchSpec": "5.16.11"
+  },
+  "_requiredBy": [
+    "/appium-android-driver/webdriverio",
+    "/appium-base-driver/webdriverio",
+    "/appium-chromedriver/webdriverio",
+    "/appium-espresso-driver/webdriverio",
+    "/appium-fake-driver/webdriverio",
+    "/appium-mac-driver/webdriverio",
+    "/appium-uiautomator2-driver/webdriverio",
+    "/appium-windows-driver/webdriverio",
+    "/appium-xcuitest-driver/webdriverio",
+    "/appium-youiengine-driver/webdriverio",
+    "/webdriver"
+  ],
+  "_resolved": "https://registry.npmjs.org/@wdio/config/-/config-5.16.11.tgz",
+  "_shasum": "2f2c58e4a50ab3fc9251f2ea8ec64c86d4266e5c",
+  "_spec": "@wdio/config@5.16.11",
+  "_where": "/Users/hakimhauston/tipsi-sprite/example/node_modules/appium-android-driver/node_modules/webdriverio",
+  "author": {
+    "name": "Christian Bromann",
+    "email": "christian@saucelabs.com"
+  },
+  "bugs": {
+    "url": "https://github.com/webdriverio/webdriverio/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@wdio/logger": "5.16.10",
+    "deepmerge": "^4.0.0",
+    "glob": "^7.1.2"
+  },
+  "deprecated": false,
+  "description": "A helper utility to parse and validate WebdriverIO options",
+  "engines": {
+    "node": ">= 8.11.0"
+  },
+  "gitHead": "ebea222f90021b0a76b475fcd70a5e1f8ec4dba8",
+  "homepage": "https://github.com/webdriverio/webdriverio/tree/master/packages/wdio-config",
+  "keywords": [
+    "webdriver",
+    "wdio",
+    "wdio-utility"
+  ],
+  "license": "MIT",
+  "main": "./build/index",
+  "name": "@wdio/config",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/webdriverio/webdriverio.git"
+  },
+  "scripts": {
+    "build": "run-s clean compile",
+    "clean": "rimraf ./build",
+    "compile": "babel src/ -d build/ --config-file ../../babel.config.js",
+    "test": "run-s test:*",
+    "test:eslint": "eslint src test",
+    "test:unit": "jest"
+  },
+  "version": "5.16.11"
+}

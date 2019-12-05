@@ -1,0 +1,176 @@
+{
+  "_from": "appium-fake-driver@^0.x",
+  "_id": "appium-fake-driver@0.9.0",
+  "_inBundle": false,
+  "_integrity": "sha512-MwCqt1vz+bRidl9NRNcToJZostKEJQAzBizh9QyZ+5n3/N+OTBYCp5AD/pJw/MjF4Wl1u1Jhu2jFxsu+XaQpqA==",
+  "_location": "/appium-fake-driver",
+  "_phantomChildren": {
+    "@babel/runtime": "7.7.4",
+    "@types/color-name": "1.1.1",
+    "@wdio/config": "5.16.11",
+    "@wdio/logger": "5.16.10",
+    "@wdio/repl": "5.16.12",
+    "@wdio/utils": "5.16.12",
+    "appium-support": "2.35.2",
+    "async": "2.6.3",
+    "async-limiter": "1.0.1",
+    "async-lock": "1.2.2",
+    "asyncbox": "2.6.0",
+    "bluebird": "3.7.2",
+    "buffer": "5.4.3",
+    "buffer-crc32": "0.2.13",
+    "buffer-from": "1.1.1",
+    "colors": "1.4.0",
+    "content-type": "1.0.4",
+    "core-util-is": "1.0.2",
+    "css-value": "0.0.1",
+    "debug": "2.6.9",
+    "decamelize": "1.2.0",
+    "emoji-regex": "8.0.0",
+    "end-of-stream": "1.4.4",
+    "es6-error": "4.1.1",
+    "express": "4.17.1",
+    "fs-constants": "1.0.0",
+    "glob": "7.1.6",
+    "graceful-fs": "4.2.3",
+    "grapheme-splitter": "1.0.4",
+    "http-status-codes": "1.4.0",
+    "iconv-lite": "0.4.24",
+    "isarray": "1.0.0",
+    "lazystream": "1.0.0",
+    "locate-path": "5.0.0",
+    "lodash": "4.17.15",
+    "lodash.clonedeep": "4.5.0",
+    "lodash.defaults": "4.2.0",
+    "lodash.difference": "4.5.0",
+    "lodash.flatten": "4.4.0",
+    "lodash.isobject": "3.0.2",
+    "lodash.isplainobject": "4.0.6",
+    "lodash.union": "4.6.0",
+    "lodash.zip": "4.2.0",
+    "methods": "1.1.2",
+    "ms": "2.0.0",
+    "on-finished": "2.3.0",
+    "on-headers": "1.0.2",
+    "parseurl": "1.3.3",
+    "process-nextick-args": "2.0.1",
+    "request": "2.88.0",
+    "request-promise": "4.2.5",
+    "require-directory": "2.1.1",
+    "resq": "1.7.0",
+    "rgb2hex": "0.1.10",
+    "safe-buffer": "5.1.2",
+    "sanitize-filename": "1.6.3",
+    "set-blocking": "2.0.0",
+    "setprototypeof": "1.1.1",
+    "statuses": "1.5.0",
+    "string_decoder": "1.1.1",
+    "toidentifier": "1.0.0",
+    "type-is": "1.6.18",
+    "unpipe": "1.0.0",
+    "util-deprecate": "1.0.2",
+    "uuid-js": "0.7.5",
+    "validate.js": "0.13.1",
+    "webdriver": "5.16.12"
+  },
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "appium-fake-driver@^0.x",
+    "name": "appium-fake-driver",
+    "escapedName": "appium-fake-driver",
+    "rawSpec": "^0.x",
+    "saveSpec": null,
+    "fetchSpec": "^0.x"
+  },
+  "_requiredBy": [
+    "/appium"
+  ],
+  "_resolved": "https://registry.npmjs.org/appium-fake-driver/-/appium-fake-driver-0.9.0.tgz",
+  "_shasum": "5df0aac6f1aac291f0c2943e782f1171fcd5c340",
+  "_spec": "appium-fake-driver@^0.x",
+  "_where": "/Users/hakimhauston/tipsi-sprite/example/node_modules/appium",
+  "appium": {
+    "driverName": "fake",
+    "automationName": "Fake",
+    "platformNames": [
+      "Fake"
+    ],
+    "mainClass": "FakeDriver"
+  },
+  "author": {
+    "name": "appium"
+  },
+  "bin": {
+    "appium-fake-driver": "./build/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/appium/appium-fake-driver/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@babel/runtime": "^7.0.0",
+    "appium-base-driver": "^5.0.0",
+    "appium-support": "^2.11.1",
+    "asyncbox": "^2.3.2",
+    "bluebird": "^3.5.1",
+    "lodash": "^4.17.4",
+    "source-map-support": "^0.5.5",
+    "xmldom": "^0.1.19",
+    "xpath": "0.0.27",
+    "yargs": "^15.0.1"
+  },
+  "deprecated": false,
+  "description": "Description goes here.",
+  "devDependencies": {
+    "ajv": "^6.5.3",
+    "appium-gulp-plugins": "^4.0.0",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "eslint-config-appium": "^4.0.1",
+    "gulp": "^4.0.0",
+    "request-promise": "^4.2.2",
+    "sinon": "^7.0.0",
+    "wd": "^1.5.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "engines": [
+    "node"
+  ],
+  "files": [
+    "index.js",
+    "lib",
+    "build/index.js",
+    "build/lib",
+    "test/fixtures"
+  ],
+  "greenkeeper": {
+    "ignore": []
+  },
+  "homepage": "https://github.com/appium/appium-fake-driver#readme",
+  "keywords": [
+    "appium"
+  ],
+  "license": "Apache-2.0",
+  "main": "./build/index.js",
+  "name": "appium-fake-driver",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appium/appium-fake-driver.git"
+  },
+  "scripts": {
+    "build": "gulp transpile",
+    "clean": "rm -rf node_modules && rm -f package-lock.json && npm install",
+    "coverage": "gulp coveralls",
+    "e2e-test": "gulp e2e-test",
+    "lint": "gulp lint",
+    "lint:fix": "gulp eslint --fix",
+    "mocha": "mocha",
+    "prepare": "gulp prepublish",
+    "test": "gulp once",
+    "watch": "gulp watch"
+  },
+  "version": "0.9.0"
+}

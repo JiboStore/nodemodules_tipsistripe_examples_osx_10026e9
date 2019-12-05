@@ -1,0 +1,95 @@
+{
+  "_from": "isarray@~1.0.0",
+  "_id": "isarray@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=",
+  "_location": "/isarray",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "isarray@~1.0.0",
+    "name": "isarray",
+    "escapedName": "isarray",
+    "rawSpec": "~1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "~1.0.0"
+  },
+  "_requiredBy": [
+    "/appium-android-driver/archiver-utils/readable-stream",
+    "/appium-android-driver/compress-commons/readable-stream",
+    "/appium-base-driver/archiver-utils/readable-stream",
+    "/appium-base-driver/compress-commons/readable-stream",
+    "/appium-chromedriver/archiver-utils/readable-stream",
+    "/appium-chromedriver/compress-commons/readable-stream",
+    "/appium-espresso-driver/archiver-utils/readable-stream",
+    "/appium-espresso-driver/compress-commons/readable-stream",
+    "/appium-fake-driver/archiver-utils/readable-stream",
+    "/appium-fake-driver/compress-commons/readable-stream",
+    "/appium-mac-driver/archiver-utils/readable-stream",
+    "/appium-mac-driver/compress-commons/readable-stream",
+    "/appium-uiautomator2-driver/archiver-utils/readable-stream",
+    "/appium-uiautomator2-driver/compress-commons/readable-stream",
+    "/appium-windows-driver/archiver-utils/readable-stream",
+    "/appium-windows-driver/compress-commons/readable-stream",
+    "/appium-xcuitest-driver/archiver-utils/readable-stream",
+    "/appium-xcuitest-driver/compress-commons/readable-stream",
+    "/appium-youiengine-driver/archiver-utils/readable-stream",
+    "/appium-youiengine-driver/compress-commons/readable-stream",
+    "/isobject",
+    "/readable-stream",
+    "/unset-value/has-value/isobject"
+  ],
+  "_resolved": "https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz",
+  "_shasum": "bb935d48582cba168c06834957a54a3e07124f11",
+  "_spec": "isarray@~1.0.0",
+  "_where": "/Users/hakimhauston/tipsi-sprite/example/node_modules/readable-stream",
+  "author": {
+    "name": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com"
+  },
+  "bugs": {
+    "url": "https://github.com/juliangruber/isarray/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Array#isArray for older browsers",
+  "devDependencies": {
+    "tape": "~2.13.4"
+  },
+  "homepage": "https://github.com/juliangruber/isarray",
+  "keywords": [
+    "browser",
+    "isarray",
+    "array"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "isarray",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/juliangruber/isarray.git"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "testling": {
+    "files": "test.js",
+    "browsers": [
+      "ie/8..latest",
+      "firefox/17..latest",
+      "firefox/nightly",
+      "chrome/22..latest",
+      "chrome/canary",
+      "opera/12..latest",
+      "opera/next",
+      "safari/5.1..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2..latest"
+    ]
+  },
+  "version": "1.0.0"
+}

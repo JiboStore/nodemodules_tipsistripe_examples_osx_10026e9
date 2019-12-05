@@ -28,7 +28,7 @@
   "bundleDependencies": false,
   "dependencies": {
     "bluebird": "^3.4.7",
-    "debug": "~0.7.4",
+    "debug": "~4.1.1",
     "yauzl": "^2.7.0"
   },
   "deprecated": false,
